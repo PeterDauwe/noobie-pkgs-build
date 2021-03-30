@@ -9,9 +9,9 @@ makepkg
 
 echo "Moving created files to " $destiny
 echo "#############################################################################################"
-mv $search*pkg.tar.zst $destiny
+#mv $search*pkg.tar.zst $destiny
 
-ls | grep -v "PKGBUILD\|build-noobie.sh" | xargs rm -rf
+#ls | grep -v "PKGBUILD\|build-noobie.sh" | xargs rm -rf
 
 echo "Cleaning up"
 echo "#############################################################################################"
