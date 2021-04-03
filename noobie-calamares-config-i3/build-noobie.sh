@@ -3,7 +3,7 @@
 deletion1="../../noobie-repo/x86_64/"
 name1="${PWD##*/}"
 
-rm $deletion1/$name1*.zst
+rm $deletion1/$name1-21*.zst
 
 
 
